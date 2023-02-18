@@ -1,3 +1,5 @@
+package Boletim;
+
 public class BoletimNotas {
 
     public static void main (String [] args){
