@@ -4,11 +4,11 @@ public class BoletimNotas {
 
     public static void main (String [] args){
 
-        int nt1 = 0;
-        int nt2 = 0;
-        int nt3 = 1;
-        int nt4 = 10;
-        int mediaFinal = (nt1 + nt2 + nt3 + nt4)/4;
+        double nt1 = 9.5;
+        double nt2 = 2.5;
+        double nt3 = 8;
+        double nt4 = 10;
+        double mediaFinal = (nt1 + nt2 + nt3 + nt4)/4;
         if (mediaFinal > 5)
             System.out.println("aprovado");
         else if (mediaFinal == 5)
