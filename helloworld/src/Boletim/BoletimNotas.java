@@ -2,21 +2,37 @@ package Boletim;
 
 public class BoletimNotas {
 
-    public static void main (String [] args){
+    private static Object or;
 
-        double nt1 = 9.5;
-        double nt2 = 2.5;
-        double nt3 = 8;
-        double nt4 = 10;
-        double mediaFinal = (nt1 + nt2 + nt3 + nt4)/4;
-        if (mediaFinal > 5)
-            System.out.println("aprovado");
-        else if (mediaFinal == 5)
-            System.out.println("Passou raspando");
-        else
-            System.out.println("reprovado");
+    public static void main (String [] args) {
+
+        float nt1 = 6;
+        float nt2 = 6;
+        float nt3 = 5;
+        float nt4 = 10;
+        float mediaFinal = (nt1 + nt2 + nt3 + nt4) / 4;
+
+        System.out.println("sua média é");
 
         System.out.println(mediaFinal);
+
+        if ( nt1 < 4)
+            System.out.println("\nReprovado, pois tirou menos que 5 na prova 1\n");
+        else if (nt2< 4)
+            System.out.println("\nReprovado, pois tirou menos que 5 na prov 2\n");
+        else if (nt3< 4)
+            System.out.println("\nReprovado, pois tirou menos que 5 na prova3\n");
+        else if (nt4< 4)
+            System.out.println("\nReprovado, pois tirou menos que 5 na prova 4\n");
+
+        else
+
+            if (mediaFinal > 7)
+                System.out.println("aprovado, parabéns!");
+            else if (mediaFinal == 7)
+                System.out.println("Passou na régua!");
+            else
+                System.out.println("reprovado por estar abaixo da média!");
 
 
     }
