@@ -2,10 +2,9 @@ package Boletim;
 
 public class BoletimNotas {
 
-    private static Object or;
-
     public static void main (String [] args) {
 
+        
         float nt1 = 6;
         float nt2 = 6;
         float nt3 = 5;
